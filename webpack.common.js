@@ -27,7 +27,7 @@ const path = require('path');
           exclude: /node_modules/,
         },
         {
-          test: /\,png|svg|jpg|jpeg|gif$/,
+          test: /\.png|svg|jpg|jpeg|gif$/,
           type: 'asset/resource'
         },
         {
